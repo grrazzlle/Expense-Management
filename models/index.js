@@ -19,7 +19,6 @@ if (config.use_env_variable) {
       ...config,
       host: process.env.DB_HOST || config.host,
       port: process.env.DB_PORT || config.port,
-      dialect: 'mysql'
     });
 }
 
