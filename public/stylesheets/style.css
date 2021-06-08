@@ -1,5 +1,4 @@
-form.signup,
-form.login {
+form.signup, form.login {
   margin-top: 50px;
 }
 .output-data {
@@ -7,30 +6,25 @@ form.login {
   padding: 20px;
   margin-left:10px;
 }
-
 .input-data {
   display: center;
   padding: 20px;
   margin-left:10px;
   padding-right: 60%;
 }
-
 .input-data > h4 {
   padding: 10px;
   margin-left: 10px;
  
 }
-
 .input {
- margin-bottom: 5px;
- width: 100%;
- margin-left: 15px;
+  margin-bottom: 5px;
+  width: 100%;
+  margin-left: 15px;
 }
-
 .col-md-6 > h2 {
   margin-top: 20px;
 }
-
 a:link {
   color: black;
   background-color: transparent;
@@ -51,13 +45,10 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-
 .credit-input {
   margin-bottom: 5px;
   border-radius: 40px;
 }
-
-
 .submit-btn {
   margin-top: 10px;
   width: 110px;
@@ -90,53 +81,40 @@ a:active {
   bottom: -4px;
   right: 10%;
 }
-
 .submit-btn:hover::before {
   left: 80%;
 }
-
 .submit-btn:hover::after {
   right: 80%;
 }
-
 .input-title {
   padding: 20px;
   margin-left: 20px;
   
 }
-
 #piechart {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
-
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.dynamicTitle{
-
-}
-
 body {
   color: black;
   background-color: whitesmoke;
 }
-  
 .navbar {
   length: 170vh;
   color: linen;
   background:
   linear-gradient( 45deg, #6F2232 ,  linen );
 }
-
 .navbar-brand {
   background-color: none;
 } 
-
 .delButton {
    width: 110px;
   height: 40px;
@@ -151,7 +129,6 @@ body {
   border-radius: 30px;
   margin-left: 10px;
 }
-
 .delButton::before,.delButton::after {
   content: "";
   position: absolute;
@@ -169,35 +146,27 @@ body {
   bottom: -4px;
   right: 10%;
 }
-
 .delButton:hover::before {
   left: 80%;
 }
-
 .delButton:hover::after {
   right: 80%;
 }
-
-
 .mainTitle {
   padding-bottom: 50px;
   padding-top: 20px;
   margin-top: 40px;
   text-align: center;
 }
-
 .mainSen {
   text-align: center;
   margin-bottom: 40px;
 }
-
 .welcome {
   padding-top: 8px;
   color: linen;
   text-align: center;
 }
-
-
 .memberTitle {
   font-family: 'Open Sans', sans-serif;
 }
@@ -218,7 +187,6 @@ body {
   border-radius: 30px;
   margin: 10px;
 }
-
 .category-btn::before,.category-btn::after {
   content: "";
   position: absolute;
@@ -228,25 +196,20 @@ body {
   transform: skewX(50deg);
   transition: .4s linear;
 }
-
 .category-btn::before {
   top: -4px;
   left: 10%;
 }
-
 .category-btn::after {
   bottom: -4px;
   right: 10%;
 }
-
 .category-btn:hover::before {
   left: 80%;
 }
-
 .category-btn:hover::after {
   right: 80%;
 }
-
 .add-btn {
   width: 200px;
   height: 60px;
@@ -262,7 +225,6 @@ body {
   margin: 10px;
   float: right;
 }
-
 .add-btn::before,.add-btn::after {
   content: "";
   position: absolute;
@@ -280,38 +242,27 @@ body {
   bottom: -4px;
   right: 10%;
 }
-
 .add-btn:hover::before {
   left: 80%;
 }
-
 .add-btn:hover::after {
   right: 80%;
 }
-
-
 .creditKarma {
-margin-top: 30px;
-margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
-
 .creditOutput {
   color: black;
-
 }
-
 .creditDiv {
-padding-top: 50px;
-
-margin-top: 30px;
-text-align: center;
-
+  padding-top: 50px;
+  margin-top: 30px;
+  text-align: center;
 }
-
 .input{
   border-radius: 20px;
 }
-
 .saveBtn {
   width: 110px;
   height: 40px;
@@ -324,7 +275,6 @@ text-align: center;
   font-size: 16px;
   position: relative;
   border-radius: 30px;
- 
 }
 .saveBtn::before,.saveBtn::after {
   content: "";
@@ -343,15 +293,12 @@ text-align: center;
   bottom: -4px;
   right: 10%;
 }
-
 .saveBtn:hover::before {
   left: 80%;
 }
-
 .saveBtn:hover::after {
   right: 80%;
 }
-
 .login-button {
   width: 110px;
   height: 40px;
@@ -364,7 +311,6 @@ text-align: center;
   font-size: 16px;
   position: relative;
   border-radius: 30px;
- 
 }
 .login-button::before,.login-button::after {
   content: "";
@@ -383,11 +329,9 @@ text-align: center;
   bottom: -4px;
   right: 10%;
 }
-
 .login-button:hover::before {
   left: 80%;
 }
-
 .login-button:hover::after {
   right: 80%;
 }
@@ -397,7 +341,6 @@ text-align: center;
 }
 .orange {
   background-color: orange;
-
 }
 .yellow {
   background-color: yellow;
@@ -408,36 +351,30 @@ text-align: center;
 .green {
   background-color: aquamarine;
 }
-
 #creditOutput {
   border-radius: 15px;
   width: 70px;
   padding: 7px;
   font-size: x-large;
 }
-
 #loginTitle {
-font-size: x-large;
-margin-top: 10px;
+  font-size: x-large;
+  margin-top: 10px;
 }
-
 #signupTitle {
   font-size: x-large;
   margin-top: 10px;
 }
-
 .footer {
-   background:
-    linear-gradient( 45deg, #6F2232 ,  linen );
-    text-align: center;
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:50px;
-    width:100%;
+  background:
+  linear-gradient( 45deg, #6F2232 ,  linen );
+  text-align: center;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:50px;
+  width:100%;
 }
-
 .copyright {
   margin-top: 10px;
 }
-

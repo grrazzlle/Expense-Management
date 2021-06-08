@@ -1,4 +1,4 @@
-module.exports = function(sequelize, DataTypes) {
+module.exports = function (sequelize, DataTypes) {
   var Category = sequelize.define("Category", {
     title: {
       type: DataTypes.STRING,
@@ -9,7 +9,7 @@ module.exports = function(sequelize, DataTypes) {
     },
   });
 
-  Category.associate = function(models) {
+  Category.associate = function (models) {
     Category.hasMany(models.Input, {
       foreignKey: {
         allowNull: false,

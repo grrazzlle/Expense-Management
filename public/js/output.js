@@ -8,16 +8,16 @@ $(document).ready(() => {
     $(".member-name").text(data.email);
   });
 
-  $.get("/api/outputLog/"+window.location.pathname.split("/").pop()).then(dbInput => {
-      const title = dbInput.title;
-      const amount = dbInput.amount;
-      const date = dbInput.date;
-      const optionalText = dbInput.optionalText;
-  
-      $("#title").html(title)
-      $("#amount").html(amount);
-      $("#date").html(date);
-      $("#optionalText").html(optionalText);
+  $.get("/api/outputLog/" + window.location.pathname.split("/").pop()).then(dbInput => {
+    const title = dbInput.title;
+    const amount = dbInput.amount;
+    const date = dbInput.date;
+    const optionalText = dbInput.optionalText;
+
+    $("#title").html(title)
+    $("#amount").html(amount);
+    $("#date").html(date);
+    $("#optionalText").html(optionalText);
 
   });
 });

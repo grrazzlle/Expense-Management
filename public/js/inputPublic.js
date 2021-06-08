@@ -1,10 +1,10 @@
 var localCategorySave = localStorage.getItem("categoryId")
 
-$(document).ready(function() {
+$(document).ready(function () {
   $.get("/api/user_data").then(data => {
     $(".member-name").text(data.email);
   });
-  
+
   const inputTitle = $('#inputTitle');
   const inputAmount = $('#inputAmount');
   const inputDate = $('#inputDate');
@@ -30,8 +30,8 @@ $(document).ready(function() {
     }
 
     $.post('/api/input', newExpense)
-    .then( function() {
-      window.location.href = '/category';
-    });
+      .then(function () {
+        window.location.href = '/category';
+      });
   });
 });
