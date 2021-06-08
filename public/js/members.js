@@ -14,6 +14,9 @@ $(document).ready(() => {
   })
 
   $("#creditOutput").text(localCreditSave)
+  if (localCreditSave == null || localCreditSave == undefined) {
+    $("#creditOutput").text("No current Score");
+  }
   $("#credit-btn").click(function () {
     creditInput = document.getElementById("creditInput").value;
     localStorage.setItem("creditId", creditInput)

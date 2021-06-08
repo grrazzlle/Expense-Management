@@ -2,18 +2,22 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
-
-.input-data {
-  display: inline-block;
+.output-data {
+  display: center;
   padding: 20px;
   margin-left:10px;
-  
-  
+}
+
+.input-data {
+  display: center;
+  padding: 20px;
+  margin-left:10px;
+  padding-right: 60%;
 }
 
 .input-data > h4 {
   padding: 10px;
- margin-left: 10px;
+  margin-left: 10px;
  
 }
 
@@ -107,18 +111,26 @@ a:active {
   margin-top: 10px;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.dynamicTitle{
+
+}
 
 body {
-    color: black;
-    background-color: whitesmoke;
-  }
+  color: black;
+  background-color: whitesmoke;
+}
   
-  .navbar {
-    length: 170vh;
-    color: linen;
-    background:
-    linear-gradient( 45deg, #6F2232 ,  linen );
+.navbar {
+  length: 170vh;
+  color: linen;
+  background:
+  linear-gradient( 45deg, #6F2232 ,  linen );
 }
 
 .navbar-brand {
@@ -179,21 +191,19 @@ body {
   margin-bottom: 40px;
 }
 
-.category-title {
-  text-align: center; 
-}
-
 .welcome {
-  margin-right: 150px;
   padding-top: 8px;
   color: linen;
+  text-align: center;
 }
 
 
 .memberTitle {
   font-family: 'Open Sans', sans-serif;
 }
-
+.categoryTitle {
+  text-align: center;
+}
 .category-btn {
   width: 200px;
   height: 60px;
@@ -238,7 +248,7 @@ body {
 }
 
 .add-btn {
-   width: 200px;
+  width: 200px;
   height: 60px;
   background: white;
   border: 4px solid;
@@ -250,6 +260,7 @@ body {
   position: relative;
   border-radius: 30px;
   margin: 10px;
+  float: right;
 }
 
 .add-btn::before,.add-btn::after {
@@ -286,6 +297,7 @@ margin-bottom: 10px;
 
 .creditOutput {
   color: black;
+
 }
 
 .creditDiv {
@@ -398,20 +410,15 @@ text-align: center;
 }
 
 #creditOutput {
-   border-radius: 15px;
+  border-radius: 15px;
   width: 70px;
   padding: 7px;
   font-size: x-large;
 }
 
-.navbarTitle {
-  
-}
-
 #loginTitle {
 font-size: x-large;
 margin-top: 10px;
- 
 }
 
 #signupTitle {

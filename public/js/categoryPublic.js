@@ -29,7 +29,7 @@ $(document).ready(() => {
       dynamicTitle.append(li);
       li.append(a)
       li.append(button)
-
+    
       a.setAttribute("id", dbInput[i].id)
       a.setAttribute("href", ("/outputLog/"+dbInput[i].id))
 
